@@ -51,5 +51,8 @@ int main() {
 		tmp = arr[size - 1 - i].get_output_address();
 		fout << tmp << std::endl;
 	}
+	fin.close();
+    fout.close();
+    delete[] arr;
 	return 0;
 }
