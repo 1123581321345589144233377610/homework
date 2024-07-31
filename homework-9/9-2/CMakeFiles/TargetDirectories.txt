@@ -1,0 +1,3 @@
+C:/Users/Mi/Desktop/homework/homework-9/9-2/CMakeFiles/my_project.dir
+C:/Users/Mi/Desktop/homework/homework-9/9-2/CMakeFiles/ALL_BUILD.dir
+C:/Users/Mi/Desktop/homework/homework-9/9-2/CMakeFiles/ZERO_CHECK.dir

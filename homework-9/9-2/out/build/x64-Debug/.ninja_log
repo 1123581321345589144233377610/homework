@@ -1,0 +1,12 @@
+# ninja log v5
+34	752	7441236068843393	CMakeFiles/my_project.dir/main.cpp.obj	e715f9e7c58bc2af
+26	755	7441236068941919	CMakeFiles/my_project.dir/Rectangle.cpp.obj	25fe105afdc2b5e4
+2	761	7441236069002017	CMakeFiles/my_project.dir/Triangle.cpp.obj	9151ea69644451f9
+21	764	7441236068931779	CMakeFiles/my_project.dir/Rhomb.cpp.obj	385c0c41e01e6f15
+16	765	7441236068982020	CMakeFiles/my_project.dir/Right_Triangle.cpp.obj	2c812be502bcc3ad
+31	765	7441236068941919	CMakeFiles/my_project.dir/Parallelogram.cpp.obj	5be0ca41c03a0f3a
+45	766	7441236069022012	CMakeFiles/my_project.dir/Equilateral_Triangle.cpp.obj	9e2286888cb94bb9
+8	766	7441236069069666	CMakeFiles/my_project.dir/Tetragon.cpp.obj	e88df6a2544cba69
+12	769	7441236069099745	CMakeFiles/my_project.dir/Square.cpp.obj	ea1c6d58f87158d4
+40	780	7441236069208995	CMakeFiles/my_project.dir/Isosceles_Triangle.cpp.obj	cdc1cae2b3ccc357
+780	1404	7441236071780860	my_project.exe	a4855fbc01650555
