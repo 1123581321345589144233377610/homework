@@ -1,0 +1,10 @@
+^C:\USERS\MI\DESKTOP\HOMEWORK\HOMEWORK-10\10-2\SOLUTION\LEAVE_LIB\CMAKEFILES\0565A300DEE77253D2B8C0DC608DFF43\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Mi/Desktop/homework/homework-10/10-2/Solution/leave_lib -BC:/Users/Mi/Desktop/homework/homework-10/10-2/Solution/leave_lib --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Mi/Desktop/homework/homework-10/10-2/Solution/leave_lib/leave_lib.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
