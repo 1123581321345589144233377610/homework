@@ -1,0 +1,5 @@
+C:/Users/Mi/Desktop/homework/homework-10/10-1/Solution/CMakeFiles/my_project.dir
+C:/Users/Mi/Desktop/homework/homework-10/10-1/Solution/CMakeFiles/ALL_BUILD.dir
+C:/Users/Mi/Desktop/homework/homework-10/10-1/Solution/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Mi/Desktop/homework/homework-10/10-1/Solution/greet_lib/CMakeFiles/greet_lib.dir
+C:/Users/Mi/Desktop/homework/homework-10/10-1/Solution/greet_lib/CMakeFiles/ALL_BUILD.dir
