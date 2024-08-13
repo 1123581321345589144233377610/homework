@@ -1,0 +1,10 @@
+^C:\USERS\MI\DESKTOP\HOMEWORK\HOMEWORK-10\10-4\SOLUTION\MY_LIB\CMAKEFILES\171BA371B3B2A9DE79933945B91D4177\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Mi/Desktop/homework/homework-10/10-4/Solution/my_lib -BC:/Users/Mi/Desktop/homework/homework-10/10-4/Solution/my_lib --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Mi/Desktop/homework/homework-10/10-4/Solution/my_lib/my_lib.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

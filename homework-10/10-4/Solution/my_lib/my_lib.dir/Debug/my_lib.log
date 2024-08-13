@@ -1,0 +1,62 @@
+﻿  my_lib.cpp
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(2,30): error C2375: my_lib::Triangle::Triangle: переопределение; другое связывание
+  C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.h(16,2):
+   см. объявление "my_lib::Triangle::Triangle"
+  
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(12,35): error C2375: my_lib::Triangle::print_info: переопределение; другое связывание
+  C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.h(19,7):
+   см. объявление "my_lib::Triangle::print_info"
+  
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(18,30): error C2375: my_lib::Triangle::Triangle: переопределение; другое связывание
+  C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.h(18,2):
+   см. объявление "my_lib::Triangle::Triangle"
+  
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(18,51): error C2264: my_lib::Triangle::Triangle: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(20,40): error C2375: my_lib::Isosceles_Triangle::Isosceles_Triangle: переопределение; другое связывание
+  C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.h(24,6):
+   см. объявление "my_lib::Isosceles_Triangle::Isosceles_Triangle"
+  
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(20,71): error C2264: my_lib::Triangle::Triangle: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(22,30): error C2375: my_lib::Tetragon::Tetragon: переопределение; другое связывание
+  C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.h(30,6):
+   см. объявление "my_lib::Tetragon::Tetragon"
+  
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(34,35): error C2375: my_lib::Tetragon::print_info: переопределение; другое связывание
+  C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.h(33,11):
+   см. объявление "my_lib::Tetragon::print_info"
+  
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(40,30): error C2375: my_lib::Tetragon::Tetragon: переопределение; другое связывание
+  C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.h(32,6):
+   см. объявление "my_lib::Tetragon::Tetragon"
+  
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(40,51): error C2264: my_lib::Tetragon::Tetragon: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(42,35): error C2375: my_lib::Parallelogram::Parallelogram: переопределение; другое связывание
+  C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.h(38,6):
+   см. объявление "my_lib::Parallelogram::Parallelogram"
+  
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(42,61): error C2264: my_lib::Tetragon::Tetragon: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(44,31): error C2375: my_lib::Rectangle::Rectangle: переопределение; другое связывание
+  C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.h(43,6):
+   см. объявление "my_lib::Rectangle::Rectangle"
+  
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(44,53): error C2264: my_lib::Tetragon::Tetragon: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(46,27): error C2375: my_lib::Rhomb::Rhomb: переопределение; другое связывание
+  C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.h(48,6):
+   см. объявление "my_lib::Rhomb::Rhomb"
+  
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(46,45): error C2264: my_lib::Tetragon::Tetragon: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(48,36): error C2375: my_lib::Right_Triangle::Right_Triangle: переопределение; другое связывание
+  C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.h(53,6):
+   см. объявление "my_lib::Right_Triangle::Right_Triangle"
+  
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(48,63): error C2264: my_lib::Triangle::Triangle: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(50,28): error C2375: my_lib::Square::Square: переопределение; другое связывание
+  C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.h(58,6):
+   см. объявление "my_lib::Square::Square"
+  
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(50,47): error C2264: my_lib::Tetragon::Tetragon: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(52,42): error C2375: my_lib::Equilateral_Triangle::Equilateral_Triangle: переопределение; другое связывание
+  C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.h(63,2):
+   см. объявление "my_lib::Equilateral_Triangle::Equilateral_Triangle"
+  
+C:\Users\Mi\Desktop\homework\homework-10\10-4\Solution\my_lib\my_lib.cpp(52,75): error C2264: my_lib::Triangle::Triangle: ошибка в определении или объявлении функции; функция не вызвана
