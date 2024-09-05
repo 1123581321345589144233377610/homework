@@ -17,6 +17,7 @@ void remove_dynamic_array_head(int* &arr, int &logical_size, int &actual_size) {
 		}
 		--logical_size;
 		actual_size = actual_size / 3;
+		delete[] arr;
 		arr = new_arr;
 	}
 }

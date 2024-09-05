@@ -12,6 +12,7 @@ void append_to_dynamic_array(int* &arr, int &logical_size, int &actual_size, int
 		new_arr[logical_size] = new_element;
 		++logical_size;
 		actual_size *= 2;
+		delete[] arr;
 		arr = new_arr;
 	}
 }
