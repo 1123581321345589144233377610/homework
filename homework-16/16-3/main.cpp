@@ -8,7 +8,7 @@ unsigned int simple_string_hash(const std::string& str) {
 
 int find_substring_light_rabin_karp(const std::string& p, const std::string& str) {
 	unsigned int p_hash = simple_string_hash(p), h{};
-	for (size_t i{}; i <= str.size() - p.size() ; ++i) {
+	for (size_t i{}; i <= str.size() - p.size(); ++i) {
 		if (i == 0) h = simple_string_hash(str.substr(0, p.size()));
 		else {
 			h -= str[i - 1];
