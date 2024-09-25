@@ -1,8 +1,10 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <clocale>
 
 int main() {
+	setlocale(LC_ALL, "rus");
 	std::ifstream in("graph.txt");
 	int vertices{};
 	in >> vertices;

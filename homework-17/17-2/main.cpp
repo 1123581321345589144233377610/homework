@@ -2,6 +2,7 @@
 #include <fstream>
 #include <vector>
 #include <queue>
+#include <clocale>
 
 void bfs(std::vector<std::vector<int>> graph, int vertices, size_t start) {
 	std::vector<int> visited(vertices, 0);
@@ -33,6 +34,7 @@ void bfs(std::vector<std::vector<int>> graph, int vertices, size_t start) {
 }
 
 int main() {
+	setlocale(LC_ALL, "rus");
 	std::ifstream in("graph.txt");
 	int vertices{};
 	size_t start{};
