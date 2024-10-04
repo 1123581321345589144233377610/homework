@@ -27,14 +27,19 @@ public:
 		}
 	}
 	int operator[](int index) {
-		if (index >= last_index) throw(std::exception("Out of range!"));
-		return arr[index];
+		if (index >= last_index) {
+			throw(std::exception("Out of range!"));
+		}
+		else {
+			return arr[index];
+		}
 	}
 	~smart_array() {
 		delete[] arr;
 	}
 	void operator=(smart_array &other) {
 		int* copy = new int[other.size] {};
+		delete[] arr;
 		for (size_t i{}; i < other.size; ++i) {
 			copy[i] = other.arr[i];
 		}
