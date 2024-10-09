@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Mi/Desktop/homework/homework-20/20-1",
-      "program": "c:/Users/Mi/Desktop/homework/homework-20/20-1/build/Debug/outDebug",
+      "cwd": "c:/Users/Mi/Desktop/homework/homework-21/21-2",
+      "program": "c:/Users/Mi/Desktop/homework/homework-21/21-2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
