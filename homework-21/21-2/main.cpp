@@ -99,12 +99,7 @@ TEST_CASE("Test push front") {
 TEST_CASE("Test pop back") {
     SECTION("Empty list") {
         INFO("Wrong pop back method for empty list!");
-        try {
-            List().PopBack();
-        }
-        catch (std::runtime_error& ex) {
-            CHECK(true == true);
-        }
+        CHECK_THROWS(List().PopBack());
     }
     SECTION("Non empty list") {
         INFO("Wrong pop back method for non empty list!");
@@ -121,12 +116,7 @@ TEST_CASE("Test pop back") {
 TEST_CASE("Test pop front") {
     SECTION("Empty list") {
         INFO("Wrong pop front method for empty list!");
-        try {
-            List().PopFront();
-        }
-        catch (std::runtime_error& ex) {
-            CHECK(true == true);
-        }
+        CHECK_THROWS(List().PopFront());
     }
     SECTION("Non empty list") {
         INFO("Wrong pop front method for non empty list!");
