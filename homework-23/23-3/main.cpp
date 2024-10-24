@@ -14,6 +14,9 @@ public:
 			vec[i] = value;
 		}
 	}
+	~vector() {
+		delete[] vec;
+	}
 	Type operator[](const int &index) {
 		return vec[index];
 	}
@@ -58,7 +61,7 @@ public:
 	}
 };
 
-int main() {
+int main(int argc, char* argv[]) {
 	try {
 		vector<int> vec{};
 		vec.push_back(1);
