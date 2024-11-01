@@ -19,7 +19,6 @@ public:
 	}
 	~unique_ptr() {
 		delete ptr;
-		ptr = nullptr;
 	}
 };
 
@@ -28,5 +27,6 @@ int main(int argc, char* argv[]) {
 	std::cout << *(ptr) << std::endl;
 	int* new_ptr = ptr.release();
 	std::cout << *(new_ptr) << std::endl;
+	delete new_ptr;
 	return EXIT_SUCCESS;
 }
