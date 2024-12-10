@@ -2,6 +2,7 @@
 #include <unordered_map>
 #include <algorithm>
 #include <string>
+#include <vector>
 
 void print_letter_frequency(const std::string &str) {
 	std::unordered_map<char, unsigned int> umap{};
