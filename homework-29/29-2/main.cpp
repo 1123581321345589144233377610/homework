@@ -50,7 +50,7 @@ void PrintTimeOfWork(const unsigned int& numberOfThreads) {
 	std::cout << std::endl;
 }
 
-int main() {
+int main(int argc, char* argv[]) {
 	std::cout << "Number of hardware cores - " << std::thread::hardware_concurrency() << std::endl << std::endl;
 	std::cout << "\t           1000" << "\t           10000" << "\t   100000" << "\t   1000000" << std::endl;
 	PrintTimeOfWork(1);
