@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/work/build",
+  "command": "/usr/bin/cc   -g -std=gnu99 -o CMakeFiles/linux_uptime.dir/main.c.o -c /work/main.c",
+  "file": "/work/main.c"
+}
+]

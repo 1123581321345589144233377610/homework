@@ -1,0 +1,3 @@
+/work/build/CMakeFiles/linux_uptime.dir
+/work/build/CMakeFiles/edit_cache.dir
+/work/build/CMakeFiles/rebuild_cache.dir
