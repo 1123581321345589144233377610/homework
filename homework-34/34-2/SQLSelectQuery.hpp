@@ -1,6 +1,7 @@
 #pragma once
 #include <cassert>
 #include <iostream>
+#include <map>
 #include <string>
 
 class SQLSelectQuery{
