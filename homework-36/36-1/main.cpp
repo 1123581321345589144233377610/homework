@@ -36,5 +36,7 @@ int main(int argc, char* argv[]){
     LogCommand* second = new PrintMessageInFile("output.txt");
     Print(first, "Hello world!");
     Print(second, "Hello world!");
+    delete first;
+    delete second;
     return EXIT_SUCCESS;
 }
