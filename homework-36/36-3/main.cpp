@@ -5,6 +5,7 @@
 
 class LogMessage {
 public:
+    virtual ~LogMessage() = default;
     virtual std::string Type() = 0;
     std::string message;
     virtual void GetMessage() = 0;
@@ -71,6 +72,7 @@ public:
 
 class Handler{
 public:
+    virtual ~Handler() = default;
     virtual void ProcessMessage(LogMessage* logMessage) = 0;
     virtual void SetNextHandler(Handler* nextHandler) = 0;
 };
@@ -170,5 +172,13 @@ int main(int argc, char* argv[]){
     }catch(...){
         std::cerr << "Unknown problem!" << std::endl;
     }
+    delete warning;
+    delete error;
+    delete fatalError;
+    delete unknownMessage;
+    delete firstHandler;
+    delete secondHandler;
+    delete thirdHandler;
+    delete fourthHandler;
     return EXIT_SUCCESS;
 }
