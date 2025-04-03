@@ -14,21 +14,19 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 find_package(Qt6 REQUIRED COMPONENTS Sql)
 
 set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
+        "Source Files/main.cpp"
+        "Source Files/mainwindow.cpp"
+        "Header Files/mainwindow.h"
+        "Forms/mainwindow.ui"
+        "Header Files/dialog.h" 
+        "Source Files/dialog.cpp" 
+        "Forms/dialog.ui"
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(App
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        dialog.h dialog.cpp dialog.ui
-
-
-
-
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET App APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
