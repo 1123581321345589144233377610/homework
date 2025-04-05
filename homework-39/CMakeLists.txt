@@ -14,13 +14,13 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 find_package(Qt6 REQUIRED COMPONENTS Sql)
 
 set(PROJECT_SOURCES
-        "Source Files/main.cpp"
-        "Source Files/mainwindow.cpp"
-        "Header Files/mainwindow.h"
-        "Forms/mainwindow.ui"
-        "Header Files/dialog.h" 
-        "Source Files/dialog.cpp" 
-        "Forms/dialog.ui"
+        main.cpp
+        mainwindow.cpp
+        mainwindow.h
+        mainwindow.ui
+        dialog.h
+        dialog.cpp
+        dialog.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
