@@ -13,10 +13,6 @@ MainWindow::MainWindow(QWidget *parent)
 MainWindow::~MainWindow()
 {
     delete ui;
-    delete dialog;
-    delete graph;
-    delete chart;
-    delete chartView;
 }
 
 
@@ -237,21 +233,20 @@ void MainWindow::on_pb_start_clicked()
 
 void MainWindow::showGraph(QVector<double> xData, QVector<double> yData)
 {
-    dialog = new QDialog(this);
-    graph = new QSplineSeries(this);
+    QDialog* dialog = new QDialog(this);
+    dialog->setAttribute(Qt::WA_DeleteOnClose);
+    QSplineSeries* graph = new QSplineSeries();
     for(int index{}; index < FD; ++index){
         graph->append(xData[index], yData[index]);
     }
-    chart = new QChart();
+    QChart* chart = new QChart();
     chart->addSeries(graph);
     chart->createDefaultAxes();
     chart->setTitle("График обработанных данных за 1-ю секунду");
-    chartView = new QChartView(chart);
-    dialog->setLayout(new QVBoxLayout);
+    QChartView* chartView = new QChartView(chart);
+    QVBoxLayout* layout = new QVBoxLayout(dialog);
+    layout->addWidget(chartView);
     dialog->resize(800, 600);
-    dialog->setFixedSize(dialog->size());
-    dialog->layout()->addWidget(chartView);
     dialog->show();
 }
-
 

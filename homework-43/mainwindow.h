@@ -50,10 +50,6 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    QDialog *dialog;
-    QSplineSeries *graph;
-    QChart *chart;
-    QChartView *chartView;
     QString pathToFile = "";
     uint8_t numberSelectChannel = 0xEA;
 
