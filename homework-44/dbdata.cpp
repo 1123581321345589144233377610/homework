@@ -30,3 +30,4 @@ void DbData::on_buttonBox_accepted()
     data[port] = ui->spB_port->text();
     emit sig_sendData(data);
 }
+
