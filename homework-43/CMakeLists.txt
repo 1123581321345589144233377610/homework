@@ -26,3 +26,4 @@ add_executable(PreGraphic
 
 
 target_link_libraries(PreGraphic Qt6::Widgets Qt6::Concurrent Qt6::Charts)
+

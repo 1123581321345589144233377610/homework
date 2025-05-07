@@ -235,7 +235,7 @@ void MainWindow::showGraph(QVector<double> xData, QVector<double> yData)
 {
     QDialog* dialog = new QDialog(this);
     dialog->setAttribute(Qt::WA_DeleteOnClose);
-    QSplineSeries* graph = new QSplineSeries();
+    QSplineSeries* graph = new QSplineSeries(dialog);
     for(int index{}; index < FD; ++index){
         graph->append(xData[index], yData[index]);
     }
@@ -243,10 +243,10 @@ void MainWindow::showGraph(QVector<double> xData, QVector<double> yData)
     chart->addSeries(graph);
     chart->createDefaultAxes();
     chart->setTitle("График обработанных данных за 1-ю секунду");
-    QChartView* chartView = new QChartView(chart);
+    QChartView* chartView = new QChartView(chart, dialog);
+    chart->setParent(chartView);
     QVBoxLayout* layout = new QVBoxLayout(dialog);
     layout->addWidget(chartView);
     dialog->resize(800, 600);
     dialog->show();
 }
-
